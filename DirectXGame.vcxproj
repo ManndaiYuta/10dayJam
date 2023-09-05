@@ -112,8 +112,10 @@
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Goal.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MathUtilityForText.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="scene\GameScene.cpp" />
+    <ClCompile Include="Stage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2d\ImGuiManager.h" />
@@ -142,12 +144,14 @@
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Goal.h" />
     <ClInclude Include="input\Input.h" />
+    <ClInclude Include="MathUtilityForText.h" />
     <ClInclude Include="math\Matrix4x4.h" />
     <ClInclude Include="math\Vector2.h" />
     <ClInclude Include="math\Vector3.h" />
     <ClInclude Include="math\Vector4.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="scene\GameScene.h" />
+    <ClInclude Include="Stage.h" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="Resources\shaders\TerrainPS.hlsl">

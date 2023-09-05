@@ -1,2 +1,7 @@
 ﻿#pragma once
-class Goal {};
+class Goal 
+{
+public:
+
+
+};
